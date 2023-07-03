@@ -48,7 +48,7 @@ public class home_4 {
         for (int i = 1;i <= n;i++){
             id.add(i);
         }
-        Collection.sort (id, new Comparator<Integer>(){
+        Collection.sort (id, new Comparator<Integer>) {
             @Override
             public int compare(Integer o1, Integer o2){
                 return Integer.parseInt(o1.split(" ")[3]) - Integer.parseInt(o2.split(" ")[3]);
